@@ -2,11 +2,7 @@ def map_to_negativize(data)
   i = 0
   neg_data = []
   while i < data.length do
-    if data[i] < 0
-      neg_data << data[i]
-    else
-      neg_data << data[i] * -1
-    end
+    neg_data << data[i] * -1
     i += 1
   end
   neg_data
