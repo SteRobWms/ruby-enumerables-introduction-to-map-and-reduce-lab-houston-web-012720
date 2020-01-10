@@ -9,6 +9,7 @@ def map_to_negativize(data)
     end
     i += 1
   end
+  neg_data
 end
 
 def map_to_no_change(data)
