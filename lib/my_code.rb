@@ -9,6 +9,12 @@ def map_to_negativize(data)
 end
 
 def map_to_no_change(data)
+  i = 0
+  same_data_new_list = []
+  while i < data.length do
+    same_data_new_list << data[i]
+  end
+  same_data_new_list
 end
 
 def map_to_double(data)
